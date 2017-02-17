@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: WatsonTestSantanu1702
+  host: WatsonTestSantanu170217
+  disk_quota: 1024M
+  services:
+  - WatsonTestSantanu1702-cloudantNoSQLDB
+  - Language Translator-bj
+  - Conversation-dx
